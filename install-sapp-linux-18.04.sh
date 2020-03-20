@@ -55,4 +55,4 @@ echo "masternodeprivkey=$PRIVKEY" >> sap.conf
 mv sap.conf $CONF_DIR/sap.conf
 echo  -e  "$(crontab -l)\n */2 * * * * ./sapd -datadir=/root/.sap -config=/root/.sap/sap.conf -daemon >/dev/null 2>&1" | crontab -
 ./sapd
-echo fertig
+echo finish
