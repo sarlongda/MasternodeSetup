@@ -20,6 +20,7 @@ bsdmainutils libdb4.8++-dev libminiupnpc-dev libgmp3-dev ufw fail2ban pkg-config
 echo && echo && echo
 sudo wget https://github.com/sappcoin-com/SAPP/releases/download/v1.2.2/SAPPv122-Daemon-Ubuntu1804.zip
 unzip SAPPv122-Daemon-Ubuntu1804.zip
+sleep 10
 rm -r SAPPv122-Daemon-Ubuntu1804.zip
 chmod +x *
 fi
