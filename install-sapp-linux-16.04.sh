@@ -21,7 +21,6 @@ echo && echo && echo
 sudo wget https://github.com/sappcoin-com/SAPP/releases/download/v1.2.2/SAPPv122-Daemon-Ubuntu1604.zip
 unzip SAPPv122-Daemon-Ubuntu1604.zip
 sleep 10
-rm -r SAPPv122-Daemon-Ubuntu1604.zip
 chmod +x *
 fi
 ## Setup conf
